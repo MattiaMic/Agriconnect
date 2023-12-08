@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fix per aldo</title>
+</head>
+
+<body>
+
+    <input type="file" value="upload" id="uploadButton" />
+    <button id="ciao">
+      Carica
+  </button>
+
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+
+    <!-- GIUSTO -->
+    <script src="https://www.gstatic.com/firebasejs/8.4.0/firebase-storage.js"></script>
+
+    
+    <script src="https://www.gstatic.com/firebasejs/8.4.0/firebase-analytics.js"></script>
+
+    <script>
+      
+        // Your web app's Firebase configuration
+      var firebaseConfig = {
+    apiKey: "AIzaSyDXf6qD_2AzY8iUnQJK676NS6N_kBTtJtc",
+    authDomain: "everyfarm-b43bf.firebaseapp.com",
+    projectId: "everyfarm-b43bf",
+    storageBucket: "everyfarm-b43bf.appspot.com",
+    messagingSenderId: "1072050933912",
+    appId: "1:1072050933912:web:b4df5bed7af8c098e540ed",
+    measurementId: "G-ZBF8EGH7ZE"
+  };
+
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+
+        var carica = document.getElementById('ciao');
+
+        carica.addEventListener('click', function (e) {
+
+            // Per caricare un file, devo prima creare un riferimento completo al file tramite child 
+            var fileButton = document.getElementById("uploadButton");
+            var file = fileButton.files[0];
+            console.log('Nome file:' + file.name);
+
+            const ref = firebase.storage().ref('/sticazzi').child(file.name);
+            ref.put(file); // Qui da' problemi 
+
+        });
+    </script>
+
+</body>
+
+</html>

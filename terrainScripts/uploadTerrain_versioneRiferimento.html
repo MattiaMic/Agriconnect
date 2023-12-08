@@ -1,0 +1,62 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+    <title> Caricamento nel database Firebase </title>
+  </head>
+  <body>
+  
+    <!-- Parametri firebase --> 
+
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.0/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.0/firebase-analytics.js"></script>
+    <input type="file" value="upload" id="uploadButton" />
+    
+    <!-- Script effettivo --> 
+    <script>
+    // Configurazione webapp - parametri firebase
+      var firebaseConfig = {
+    apiKey: "AIzaSyDXf6qD_2AzY8iUnQJK676NS6N_kBTtJtc",
+    authDomain: "everyfarm-b43bf.firebaseapp.com",
+    projectId: "everyfarm-b43bf",
+    storageBucket: "everyfarm-b43bf.appspot.com",
+    messagingSenderId: "1072050933912",
+    appId: "1:1072050933912:web:b4df5bed7af8c098e540ed",
+    measurementId: "G-ZBF8EGH7ZE"
+  };
+      // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+         var fileButton = document.getElementById('uploadButton');
+
+        fileButton.addEventListener('change', function (e) {
+
+            // Per caricare un file, devo prima creare un riferimento completo al file tramite child 
+            var file = e.target.files[0];
+            console.log('Nome file:' + file.name);
+
+            const ref = firebase.storage().ref().child(file.name);
+            const task = ref.put(file); 
+            
+            // Prendo l'URL 
+            task
+            .then(snapshot => snapshot.ref.getDownloadURL())
+            .then(url =>{
+               console.log(url);
+               document.querySelector("#uploadButton").src = url;
+                
+                // Passo la URL ad un altro script cosi lo posso inserire nel database 
+                window.open('passToDb.php?indImg=' + url)
+               
+              
+            })
+            .catch(console.error)
+          
+            // Funziona!!
+
+        });
+    </script>  
+ 
+
+    
+  </body>
+</html>
