@@ -1,15 +1,15 @@
 <?php
 
-// Script di eliminazione degli animali - made by @ferr34
+// Script di eliminazione degli animali
 
 $idAnimale = $_GET['idAnim'];
 
 // Creazione connessione al DBMS
-      $conn = new mysqli("ftp.everyfarmpoliba.altervista.org","everyfarmpoliba","Mc6xAMaFG974"); 
+      $conn = new mysqli("ftp.everyfarmpoliba.altervista.org","everyfarmpoliba","Mc6xAMaFG974");
 
       if(!$conn)
          {
-                // Connessione non riuscita 
+                // Connessione non riuscita
                 echo "Errore di connessione:";
                 echo mysqli_errno();
          }

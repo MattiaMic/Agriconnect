@@ -10,8 +10,8 @@
       integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
       crossorigin="anonymous"
     />
-  <link rel="icon" href="icon/EveryFarm_favico.ico" type="image/gif" />
-  <title>EveryFarm - Chi siamo?</title>
+  <link rel="icon" href="icon/2-removebg-preview.png" type="image/gif" />
+  <title>Agriconnect - Chi siamo?</title>
   </head>
   
    <!--css-->
@@ -49,7 +49,7 @@ body {
 .showcase {
   width: 100%;
   height: 400px;
-  background: url("images/everyfarm_ban.png") no-repeat center center/cover;  
+  background: url("images/icon/1-removebg-preview.png.png") no-repeat center center/cover;  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -533,95 +533,6 @@ padding: 25px 40px;
    </div>
 </div>
 <br>
- <h1 style="font-size: 30px; color: #7EBA27; text-align: center">
-        Gli sviluppatori del progetto
-        </h1>
-<br>
-<div class="box">
-
-             <div class="card">
-             
-            <img src="icon/carnicellifrancesco.jpg" alt="Denim Jeans" style="border-radius: 50%">
-              <h1>CARNICELLI FRANCESCO</h1>
-             <h3>(575610)</h3>
-      <h3>
-        Responsabile #2 Sviluppo Frontend
-               </h3>
-             <u class="psw" style = "color:#7EBA27;">
-              f.carnicelli@studenti.poliba.it
-               </u>
-            
-               <br>
-        </div>
-     <div class="card">
-      
-            <img src="icon/ferrantecataldo.jpg" alt="Denim Jeans" style="width:100%;border-radius: 50%">
-        <h1>FERRANTE CATALDO</h1>
-             <h3>(574480)</h3>
-          <h3>Responsabile del progetto & Backend Dev. #1</h3>
-             <u class="psw" style = "color:#7EBA27;">
-              c.ferrante2@studenti.poliba.it
-            </u>
-         
-        <br>
-        </div>
-     <div class="card">
-         
-            <img src="icon/giorgiogianferrino.jpg" alt="Denim Jeans" style="width:100%;border-radius: 50%">
-       <h1>GIANFERRINO GIORGIO</h1>
-             <h3>(575977)</h3>
-       <h3>
-         Responsabile #1 Sviluppo Frontend
-       </h3>
-             <u class="psw" style = "color:#7EBA27;">
-              g.gianferrino@studenti.poliba.it
-            </u>
-       
-        <br>
-        </div>
-      
-     <div class="card">
-
-            <img src="icon/davidenusco_2.jpg" alt="Denim Jeans" style="width:100%; border-radius: 50%">
-              <h1>NUSCO DAVIDE GIUSEPPE</h1>
-             <h3>(575665)</h3>
-<h3>
- Responsabile #3 Sviluppo Frontend 
-       </h3>
-            <u class="psw" style = "color:#7EBA27;">
-             d.nusco@studenti.poliba.it
-            </u>
-          
-       <br>
-        </div>
-     <div class="card">
-    
-            <img src="icon/stefanopaparella.jpg" alt="Denim Jeans" style="width:100%; border-radius: 50%">
-               <h1>PAPARELLA STEFANO</h1>
-             <h3>(574878)</h3>
-      <h3>
-        DB Architect &
-       Backend Dev. #2
-       </h3>
-       <br>
-            <u style = "color:#7EBA27;">
-          s.paparella2@studenti.poliba.it
-            </u>
-          
-       <br>
-        </div>
-     </div>
-    <br>
-    <br>
-<h1 style="font-size: 30px; color: #7EBA27; text-align: center"> Fotografie </h1>
- <footer class="footer_1">
-        <div class="footer-inner_1">
-               <i class="fab fa-instagram" style="font-size: 50px; color: #7EBA27;"></i> <a class="button4" href="https://instagram.com/marco_a_ph?utm_medium=copy_link" style="width:auto; font-size:30px"> @marco_a_ph </a> 
-           <img src="images/marco_2.jpg" alt="Denim Jeans" style="width:20%; border-radius: 50%">
-             
-        </div>
-      </footer>
-<br>
 <br>
    <!-- Footer -->
       <footer class="footer">
@@ -644,7 +555,5 @@ window.onclick = function(event) {
     }
 }
    </script>
-  
-  
   </body>
 </html>

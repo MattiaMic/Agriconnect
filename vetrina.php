@@ -20,8 +20,8 @@
       integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
       crossorigin="anonymous"
     />
-  <link rel="icon" href="icon/EveryFarm_favico.ico" type="image/gif" />
-  <title>EveryFarm - Vetrina</title>   <!---questo diventa il nome del prodotto -->
+  <link rel="icon" href="icon/2-removebg-preview.png" type="image/gif" />
+  <title>Agriconnect - Vetrina</title>   <!---questo diventa il nome del prodotto -->
   </head>
   
   <style>

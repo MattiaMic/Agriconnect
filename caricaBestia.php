@@ -26,8 +26,8 @@ $terreno = $_GET['terreno'];
       integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
       crossorigin="anonymous"
     />
-  <link rel="icon" href="icon/EveryFarm_favico.ico" type="image/gif" />
-  <title>EveryFarm - Inserisci degli animali</title>
+  <link rel="icon" href="icon/2-removebg-preview.png" type="image/gif" />
+  <title>Agriconnect - Inserisci degli animali</title>
   </head>  
 
 <style>

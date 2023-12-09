@@ -19,8 +19,8 @@ $numFoto = $_GET['numFoto'];
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
-  <link rel="icon" href="icon/EveryFarm_favico.ico" type="image/gif" />
-  <title>EveryFarm - Recap</title>
+  <link rel="icon" href="icon/2-removebg-preview.png" type="image/gif" />
+  <title>Agroconnect - Recap</title>
 </head>
 
 <style>

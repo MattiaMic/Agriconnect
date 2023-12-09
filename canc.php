@@ -1,7 +1,5 @@
-<?php 
-  // Backend code by @ferr34 
-  // Frontend Code by @giorgio, @Francesco, @Davide
-  session_start(); 
+<?php
+  session_start();
 
   // Creazione connessione per visualizzazzione terreni
   $conn = new mysqli("ftp.everyfarmpoliba.altervista.org","everyfarmpoliba","Mc6xAMaFG974"); 
@@ -20,8 +18,8 @@ $username = $_GET['username'];
       integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
       crossorigin="anonymous"
     />
-  <link rel="icon" href="icon/EveryFarm_favico.ico" type="image/gif" />
-  <title>EveryFarm - eliminazione profilo </title>  
+  <link rel="icon" href="icon/2-removebg-preview.png" type="image/gif" />
+  <title>Agriconnect - eliminazione profilo </title>  
   </head>
   
   <style>

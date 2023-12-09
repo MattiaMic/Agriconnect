@@ -30,8 +30,8 @@ else
       integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
       crossorigin="anonymous"
     />
-  <link rel="icon" href="icon/EveryFarm_favico.ico" type="image/gif" />
-  <title>EveryFarm - Profilo</title> <!--nome utente-->
+  <link rel="icon" href="icon/2-removebg-preview.png" type="image/gif" />
+  <title> agriconnect- Profilo</title> <!--nome utente-->
   </head>
         
         <style>
