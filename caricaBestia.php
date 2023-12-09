@@ -1725,8 +1725,7 @@ function closeNav() {
 <div>
     <footer class="footer">
         <div class="footer-inner">
-          <p> Contact us: everyfarmpoliba@gmail.com </p>
-          <p>© 2021 All Rights Reserved. Design By Gruppo 31</p> 
+          <p>© 2023 All Rights Reserved. Design By SAPD-9</p>
         </div>
     </footer>
 </div>
