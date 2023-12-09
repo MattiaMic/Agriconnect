@@ -19,9 +19,9 @@ $username = $_GET['username'];
       crossorigin="anonymous"
     />
   <link rel="icon" href="icon/2-removebg-preview.png" type="image/gif" />
-  <title>Agriconnect - eliminazione profilo </title>  
+  <title>Agriconnect - eliminazione profilo </title>
   </head>
-  
+
   <style>
       * {
   box-sizing: border-box;
