@@ -266,7 +266,7 @@ a {
  <div class="container">
       <!-- Nav -->
       <nav class="main-nav">
-        <a href="home_princ.php"><img src="images/e_farm_banner.png" width=174px height=76px alt="EveryFarm, smart agriculture"></a>
+        <a href="home_princ.php"><img src="icon/AGRICONNECT-removebg-preview.png" width=174px height=76px alt="EveryFarm, smart agriculture"></a>
          <div class='profile-box'>
           <div class='intro'>
             <div class='avatar'></div>

@@ -35,10 +35,9 @@ $prezzo = $_GET['prezzo'];
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
   <title>Agriconnect - Home</title>
   </head>
-  
-  
+
   <style>
-    
+
     #header { 
     background-color: #052500;
     width: 100%;
@@ -579,7 +578,7 @@ a {
    
        <!-- Nav -->
       <nav class="main-nav">
-        <a id="imglogo" href="home_princ.php?numPagina=1&numPaginaVecchio=1"><img src="images/e_farm_banner.png" width=174px height=76px alt="EveryFarm, smart agriculture"></a>
+        <a id="imglogo" href="home_princ.php?numPagina=1&numPaginaVecchio=1"><img src="icon/AGRICONNECT-removebg-preview.png" width=174px height=76px ></a>
      
         <div class='profile-box'>
           <div class='profile-box' onclick = "window.open('profilo.php','_self')">

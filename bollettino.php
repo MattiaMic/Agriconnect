@@ -1078,7 +1078,7 @@ $numFoto = $_GET['numFoto'];
 
       <!-- Navbar -->
       <nav class="main-nav">
-        <a id="imglogo" href="home_princ.php?numPagina=1&numPaginaVecchio=1"><img  style="margin-left: 5%;" src="images/e_farm_banner.png" width=174px height=76px alt="EveryFarm, smart agriculture"></a>
+        <a id="imglogo" href="home_princ.php?numPagina=1&numPaginaVecchio=1"><img  style="margin-left: 5%;" src="icon/AGRICONNECT-removebg-preview.png" width=174px height=76px alt="EveryFarm, smart agriculture"></a>
 
         <div class='profile-box'>
           <p class='name' style="color:#7EBA27;">

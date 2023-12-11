@@ -399,7 +399,7 @@ padding: 25px 40px;
 <div class="container">
       <!-- Nav -->
   <nav class="main-nav">
-        <a class="logo" href="home_nologin.php"><img src="images/e_farm_banner.png" margin=0px width=174px height=76px alt="EveryFarm, smart agriculture"></a>
+        <a class="logo" href="home_nologin.php"><img src="icon/AGRICONNECT-removebg-preview.png" margin=0px width=174px height=76px alt="EveryFarm, smart agriculture"></a>
          <div id="div1_header">
            <h4 class="button3" onclick="document.getElementById('id02').style.display='block'" style="width:auto;"> Password dimenticata? </h4>
            <button class="button2" onclick="location.href = 'registrazione.php' "><span> Registrati </span></button>
@@ -472,7 +472,7 @@ padding: 25px 40px;
           <p style="text-align:center;font-size: 20px;">
             Siamo un gruppo di programmatori emergente, abbiamo già collaborato precedentemente per realizzare l'applicazione per smartphone UniRoom.
             Il nostro obiettivo è offrire il servizio online di compravendita più semplice, veloce e sicuro nel settore primario. 
-            Per questo,noi del gruppo "numero 31", vogliamo unire due settori paradossalmente discordi che, nel terzo millennio,
+            Per questo,noi del gruppo SAPD-9, vogliamo unire due settori paradossalmente discordi che, nel terzo millennio,
             Lavorano permettendo agli utenti di fare affari. Vogliamo garantire una piattaforma intuitiva ed efficace e
             ad un’offerta ampia e di qualità, contenuti controllati per una maggiore sicurezza.
           </p> 
@@ -524,7 +524,7 @@ padding: 25px 40px;
         <br>
           <p style="text-align:center; font-size: 20px;">
            Per quanto riguarda il fulcro della pagina, ovvero il pagamento, esso si svolgerà all'infuori del sito: 
-           EveryFarm fungerà solo ed unicamente da 'tramite' per la contrattazione tra due utenti tramite un'apposita casella di mail, strumento più usato da ogni fascia di età.
+           Agriconnect fungerà solo ed unicamente da 'tramite' per la contrattazione tra due utenti tramite un'apposita casella di mail, strumento più usato da ogni fascia di età.
            Questo sistema ha tanti punti di forza come, ad esempio, un 'contatto' diretto tra due utenti sostenendo un modo più semplice 
            per ricercare al meglio terreni in tutta Italia, in modo tale da 'accorciare le distanze'.
           </p> 

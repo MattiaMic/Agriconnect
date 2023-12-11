@@ -388,7 +388,7 @@ span.psw {
   <div class="container">
       <!-- Nav -->
   <nav class="main-nav">
-        <a class="logo" href="home_nologin.php"><img src="images/e_farm_banner.png" margin=0px width=174px height=76px alt="EveryFarm, smart agriculture"></a>
+        <a class="logo" href="home_nologin.php"><img src="icon/AGRICONNECT-removebg-preview.png" margin=0px width=174px height=76px alt="EveryFarm, smart agriculture"></a>
          <div id="div1_header">
            <h4 class="button3" onclick="document.getElementById('id02').style.display='block'" style="width:auto;"> Password dimenticata? </h4>
            <button class="button2" onclick="location.href = 'registrazione.php' "><span> Registrati </span></button>
@@ -448,7 +448,7 @@ span.psw {
      <header class="showcase">
        <br><br><br>
        <h2 style="font-size: 90px; color: #7EBA27">Smart Agriculture!</h2>
-       <h1>Benvenuto in EveryFarm, il modo più semplice per gestire il tuo terreno</h1>
+       <h1>Benvenuto in Agriconnect, il modo più semplice per gestire il tuo terreno</h1>
        <br>
      
        <button class="button1" onclick="location.href = 'registrazione.php'"><i class="fas fa-plus"></i> Registrati gratuitamente</button>
@@ -480,7 +480,7 @@ span.psw {
           <img src="images/foggia_2.jpg" alt="" />
           <h3 style="color: black; font-size: 25px">Il mondo verde a portata di click </h3>
           <p>
-          Chi sceglie EveryFarm trova un partner affidabile per fare acquisti o vendere in completa sicurezza e tranquillità
+          Chi sceglie aGRICONù trova un partner affidabile per fare acquisti o vendere in completa sicurezza e tranquillità
           </p>
         </div>
         <div>
@@ -491,7 +491,7 @@ span.psw {
         <div class="content" style="margin-left: 2%">
           <br>
           <br>
-          <h2 style="font-size: 50px;">Entra nella community di EveryFarm!</h2>
+          <h2 style="font-size: 50px;">Entra nella community di Agriconnect!</h2>
           <p>
            Registrati,Vendi,Acquista - tutto da un' unica piattaforma!
           </p>

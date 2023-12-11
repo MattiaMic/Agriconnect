@@ -931,7 +931,7 @@ a {
    
        <!-- Nav -->
       <nav class="main-nav">
-        <a id="imglogo" href="home_princ.php?numPagina=1&numPaginaVecchio=1"><img  src="images/e_farm_banner.png" width=174px height=76px alt="EveryFarm, smart agriculture"></a>
+        <a id="imglogo" href="home_princ.php?numPagina=1&numPaginaVecchio=1"><img src="icon/AGRICONNECT-removebg-preview.png" width=174px height=76px alt="EveryFarm, smart agriculture"></a>
           
         <div class='profile-box'>
           <p class='name' style = "color:#7EBA27;"><?php echo $_SESSION['nome']." ".$_SESSION['cognome']?></p>
